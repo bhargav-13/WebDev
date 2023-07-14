@@ -1,0 +1,47 @@
+body{
+    background-image: url("table.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 250px;
+}
+
+h1{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+button{
+    background-color: goldenrod;
+    color: rgb(23, 138, 0);
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#error{
+    color: rgba(255, 0, 0, 0.541);
+    outline: 1px black;
+    background-color: rgba(240, 248, 255, 0.274);
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    border-radius: 5px;
+    padding: 10px ;
+}
+
+
+
+button:hover{
+    background-color: rgb(211, 152, 3);
+    color: rgb(23, 138, 0);
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
